@@ -1,0 +1,52 @@
+/* Basic styles for layout */
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+#card {
+    position: relative;
+    width: 80%;
+    max-width: 800px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+model-viewer {
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.attribution {
+    font-size: 0.9rem;
+    margin-top: 15px;
+    color: #555;
+}
+
+.attribution a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.attribution a:hover {
+    text-decoration: underline;
+}
+
+.cc {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.cc img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
