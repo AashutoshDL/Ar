@@ -1,0 +1,65 @@
+/* Layout Container */
+.layout-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Button Wrapper */
+.button-wrapper {
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* Button Styling */
+.custom-button {
+    background-color: #4CAF50;
+    /* Green */
+    color: white;
+    font-size: 16px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover and Active States */
+.custom-button:hover {
+    background-color: #45a049;
+    /* Darker green */
+    transform: scale(1.05);
+}
+
+.custom-button:active {
+    background-color: #3e8e41;
+}
+
+/* Description Text */
+.description-text {
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .custom-button {
+        font-size: 14px;
+        padding: 10px 16px;
+    }
+
+    .description-text {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .custom-button {
+        font-size: 12px;
+        padding: 8px 12px;
+    }
+
+    .description-text {
+        font-size: 11px;
